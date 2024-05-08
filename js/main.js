@@ -235,7 +235,7 @@ function drawBow() {
       const circle = new Path2D();
 
       circle.arc(100, 35, 25, 0, 2 * Math.PI);
-      ctx.strokeStyle = "green";
+      ctx.strokeStyle = "black";
       ctx.stroke(rectangle);
       ctx.fill(circle);
     }
